@@ -1,0 +1,221 @@
+.cv{
+    width: 100%;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b1ccfd;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 2rem;
+}
+
+header > section > h3, section > section > h3, footer > section  > h3{
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+
+dt{
+    margin-top: 1.2rem;
+}
+
+header > section {
+    background-color: #8DA3CA;
+    margin: 1.8rem 0;
+    padding: 2rem 1.5rem;
+    border-radius: 1.5rem;
+    
+}
+
+section > section{
+    margin: 1rem 0;
+    padding: 0.5rem  0rem 0rem 0rem;
+    border-radius: 1.5rem;
+}
+
+
+
+section > section:nth-child(2n+1){
+    background-color: #58657D;
+}
+
+section > section:nth-child(2n+2){
+    background-color: #324D7D;
+    
+}
+
+footer > section{
+    background-color: #58657D;
+    margin: 1rem 0;
+    padding: 0.5rem  0rem 0rem 0rem;
+    border-radius: 1.5rem;
+}
+
+section > .collapse{
+    padding: 2rem 1.5rem;
+    border-radius: 0 0 1.5rem 1.5rem;
+}
+
+ul{
+    list-style: none;
+}
+
+a:link{
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+a{
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+.collapse{
+    background-color: #8DA3CA;
+}
+
+.hide{
+    display: none;
+}
+
+
+@media (min-width: 800px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    
+    div.cv{
+        width: 80%;
+        min-height: 90%;
+        margin-left: 10%;
+    }
+
+
+    h1{
+        text-align: left;
+        padding: 5% 0 0 5%;
+    }
+
+
+
+    header > div{
+        width: 25%;
+        display: inline-block;
+    }
+
+    img{
+        width: 90%;
+    }
+
+    header > section{
+        width: 60%;
+        margin-left: 5%;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1240px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    div.cv{
+        width: 80%;
+        min-height: 90%;
+        margin-left: 10%;
+    }
+
+
+    h1{
+        text-align: left;
+        padding: 5% 0 0 5%;
+    }
+
+
+
+    header > div{
+        width: 25%;
+        display: inline-block;
+    }
+
+    img{
+        width: 90%;
+    }
+
+    header > section{
+        width: 60%;
+        margin-left: 5%;
+        display: inline-block;
+    }
+
+    section > section, footer > section {
+        display: inline-block;
+        width: 40%;
+        margin-left: 5%;
+    }
+
+    .hide{
+        display: block;
+    }
+
+}
+
+@media print{
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    div.cv{
+        width: 80%;
+        min-height: 90%;
+        margin-left: 10%;
+    }
+
+
+    h1{
+        text-align: left;
+        padding: 5% 0 0 5%;
+    }
+
+
+
+    header > div{
+        width: 25%;
+        display: inline-block;
+    }
+
+    img{
+        width: 90%;
+    }
+
+    header > section{
+        width: 60%;
+        margin-left: 5%;
+        display: inline-block;
+    }
+
+    section > section, footer > section {
+        display: inline-block;
+        width: 40%;
+        margin-left: 5%;
+    }
+
+    .hide{
+        display: block;
+    }
+}
